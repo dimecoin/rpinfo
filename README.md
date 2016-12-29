@@ -6,7 +6,7 @@ Raspberry PI Info utility
 See make file. `make` should work on Raspberry Pis (all versions).
 
 ## Usage
-
+<pre>
 ./rpinfo --help
 Usage: ./rpinfo [-h] [-r] [-t unit] [-v]
 
@@ -30,10 +30,10 @@ Examples:
         ./rpinfo --revision # same as above, long style paraemter
         ./rpinfo -t f # get temperature in fahrenheit
         ./rpinfo --temperature c # get temperature in celsius
-
+</pre>
 
 ## Example output
-
+<pre>
 Revision: a02082
 Model Name: Raspberry PI 3 Model B
 Manufactor: Sony
@@ -42,3 +42,4 @@ PCB Major Version: 1
 PCB Minor Version: 1
 Comments/Notes:
 Temperature: 77.364 °C
+</pre>
